@@ -1,0 +1,142 @@
+/* =========================================
+   FUNDO E IDENTIDADE DO MATUÊ
+========================================= */
+.matue-bg {
+    background: radial-gradient(circle at top right, #1a0505, #050505);
+}
+
+/* Cor principal (vermelho forte) */
+body.matue-bg {
+    --primary-red: #ff0000;
+}
+
+/* =========================================
+   TÍTULO DO ARTISTA
+========================================= */
+body.matue-bg .profile-header h1 {
+    color: #ff0000;
+    text-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+}
+
+/* Subtítulo */
+body.matue-bg .role {
+    color: #ff0000;
+}
+
+/* =========================================
+   BIO
+========================================= */
+body.matue-bg .bio p {
+    color: #e0b3b3;
+}
+
+/* =========================================
+   STATS
+========================================= */
+body.matue-bg .stats span {
+    border-color: #330000;
+    color: #ff4d4d;
+}
+
+/* =========================================
+   DISCOS / ÁLBUNS
+========================================= */
+body.matue-bg .album-card {
+    border-color: #330000;
+}
+
+/* Hover pesado */
+body.matue-bg .album-card:hover {
+    border-color: #ff0000;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+}
+
+/* Overlay vermelho mais forte */
+body.matue-bg .album-info {
+    background: rgba(255, 0, 0, 0.85);
+}
+
+/* =========================================
+   BOTÃO VOLTAR
+========================================= */
+body.matue-bg .back-btn:hover {
+    color: #ff0000;
+}
+
+/* =========================================
+   SPOTIFY (LISTA DE MÚSICAS)
+========================================= */
+body.matue-bg .track {
+    background-color: #1a0000;
+    border: 1px solid #330000;
+}
+
+/* Hover mais agressivo */
+body.matue-bg .track:hover {
+    background-color: #2a0000;
+}
+
+/* Nome da música */
+body.matue-bg .track h4 {
+    color: #ffffff;
+}
+
+/* Números */
+body.matue-bg .rank,
+body.matue-bg .streams,
+body.matue-bg .duration {
+    color: #ff4d4d;
+}
+
+/* =========================================
+   PLAYER SPOTIFY
+========================================= */
+body.matue-bg .spotify-player {
+    box-shadow: 0 0 40px rgba(255, 0, 0, 0.25);
+}
+
+/* =========================================
+   CONCEITOS DOS ÁLBUNS
+========================================= */
+body.matue-bg .album-concepts {
+    background: linear-gradient(180deg, #050505, #1a0505);
+}
+
+/* Cards */
+body.matue-bg .concept-card {
+    border-bottom: 1px solid #330000;
+    padding-bottom: 30px;
+}
+
+/* Títulos */
+body.matue-bg .concept-text h3 {
+    color: #ff0000;
+}
+
+/* Texto */
+body.matue-bg .concept-text p {
+    color: #cccccc;
+}
+
+/* =========================================
+   EFEITOS EXTRAS
+========================================= */
+
+/* Glow forte nos botões */
+body.matue-bg .menu-item:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+/* Scrollbar personalizada */
+body.matue-bg::-webkit-scrollbar {
+    width: 8px;
+}
+
+body.matue-bg::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+body.matue-bg::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 10px;
+}

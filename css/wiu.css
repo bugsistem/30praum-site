@@ -1,0 +1,142 @@
+/* =========================================
+   FUNDO E IDENTIDADE DO WIU
+========================================= */
+.wiu-bg {
+    background: radial-gradient(circle at top right, #131a05, #050505);
+}
+
+/* Cor principal (verde neon) */
+body.wiu-bg {
+    --primary-red: #7fff00; /* verde neon */
+}
+
+/* =========================================
+   TÍTULO DO ARTISTA
+========================================= */
+body.wiu-bg .profile-header h1 {
+    color: #7fff00;
+    text-shadow: 0 0 20px rgba(127, 255, 0, 0.5);
+}
+
+/* Subtítulo */
+body.wiu-bg .role {
+    color: #7fff00;
+}
+
+/* =========================================
+   BIO
+========================================= */
+body.wiu-bg .bio p {
+    color: #cfeeb3;
+}
+
+/* =========================================
+   STATS
+========================================= */
+body.wiu-bg .stats span {
+    border-color: #224400;
+    color: #7fff00;
+}
+
+/* =========================================
+   DISCOS / ÁLBUNS
+========================================= */
+body.wiu-bg .album-card {
+    border-color: #224400;
+}
+
+/* Hover verde neon */
+body.wiu-bg .album-card:hover {
+    border-color: #7fff00;
+    box-shadow: 0 0 25px rgba(127, 255, 0, 0.4);
+}
+
+/* Overlay verde neon */
+body.wiu-bg .album-info {
+    background: rgba(127, 255, 0, 0.7);
+}
+
+/* =========================================
+   BOTÃO VOLTAR
+========================================= */
+body.wiu-bg .back-btn:hover {
+    color: #7fff00;
+}
+
+/* =========================================
+   SPOTIFY (LISTA DE MÚSICAS)
+========================================= */
+body.wiu-bg .track {
+    background-color: #0a1a00;
+    border: 1px solid #224400;
+}
+
+/* Hover */
+body.wiu-bg .track:hover {
+    background-color: #132c00;
+}
+
+/* Nome da música */
+body.wiu-bg .track h4 {
+    color: #ffffff;
+}
+
+/* Números */
+body.wiu-bg .rank,
+body.wiu-bg .streams,
+body.wiu-bg .duration {
+    color: #7fff00;
+}
+
+/* =========================================
+   PLAYER SPOTIFY
+========================================= */
+body.wiu-bg .spotify-player {
+    box-shadow: 0 0 40px rgba(127, 255, 0, 0.2);
+}
+
+/* =========================================
+   CONCEITOS DOS ÁLBUNS
+========================================= */
+body.wiu-bg .album-concepts {
+    background: linear-gradient(180deg, #050505, #131a05);
+}
+
+/* Cards */
+body.wiu-bg .concept-card {
+    border-bottom: 1px solid #224400;
+    padding-bottom: 30px;
+}
+
+/* Títulos */
+body.wiu-bg .concept-text h3 {
+    color: #7fff00;
+}
+
+/* Texto */
+body.wiu-bg .concept-text p {
+    color: #cccccc;
+}
+
+/* =========================================
+   EFEITOS EXTRAS
+========================================= */
+
+/* Glow leve nos botões */
+body.wiu-bg .menu-item:hover {
+    box-shadow: 0 0 15px rgba(127, 255, 0, 0.4);
+}
+
+/* Scrollbar personalizada */
+body.wiu-bg::-webkit-scrollbar {
+    width: 8px;
+}
+
+body.wiu-bg::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+body.wiu-bg::-webkit-scrollbar-thumb {
+    background: #7fff00;
+    border-radius: 10px;
+}

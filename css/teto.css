@@ -1,0 +1,142 @@
+/* =========================================
+   FUNDO E IDENTIDADE DO TETO
+========================================= */
+.teto-bg {
+    background: radial-gradient(circle at top right, #0a0f2a, #050505);
+}
+
+/* Cor principal do Teto (override do global) */
+body.teto-bg {
+    --primary-red: #00aaff;
+}
+
+/* =========================================
+   TÍTULO DO ARTISTA
+========================================= */
+body.teto-bg .profile-header h1 {
+    color: #00aaff;
+    text-shadow: 0 0 20px rgba(0, 170, 255, 0.4);
+}
+
+/* Subtítulo */
+body.teto-bg .role {
+    color: #00aaff;
+}
+
+/* =========================================
+   BIO
+========================================= */
+body.teto-bg .bio p {
+    color: #d0d8ff;
+}
+
+/* =========================================
+   STATS
+========================================= */
+body.teto-bg .stats span {
+    border-color: #003344;
+    color: #00aaff;
+}
+
+/* =========================================
+   DISCOS / ÁLBUNS
+========================================= */
+body.teto-bg .album-card {
+    border-color: #002233;
+}
+
+/* Hover dos álbuns */
+body.teto-bg .album-card:hover {
+    border-color: #00aaff;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+}
+
+/* Overlay azul no hover */
+body.teto-bg .album-info {
+    background: rgba(0, 170, 255, 0.75);
+}
+
+/* =========================================
+   BOTÃO VOLTAR
+========================================= */
+body.teto-bg .back-btn:hover {
+    color: #00aaff;
+}
+
+/* =========================================
+   SPOTIFY (LISTA DE MÚSICAS)
+========================================= */
+body.teto-bg .track {
+    background-color: #06122a;
+    border: 1px solid #002244;
+}
+
+/* Sem efeito estranho, mas com leve destaque */
+body.teto-bg .track:hover {
+    background-color: #0a1a3a;
+}
+
+/* Nome da música */
+body.teto-bg .track h4 {
+    color: #ffffff;
+}
+
+/* Números */
+body.teto-bg .rank,
+body.teto-bg .streams,
+body.teto-bg .duration {
+    color: #00aaff;
+}
+
+/* =========================================
+   PLAYER SPOTIFY
+========================================= */
+body.teto-bg .spotify-player {
+    box-shadow: 0 0 30px rgba(0, 170, 255, 0.2);
+}
+
+/* =========================================
+   CONCEITOS DOS ÁLBUNS
+========================================= */
+body.teto-bg .album-concepts {
+    background: linear-gradient(180deg, #050505, #0a0f2a);
+}
+
+/* Cards */
+body.teto-bg .concept-card {
+    border-bottom: 1px solid #002244;
+    padding-bottom: 30px;
+}
+
+/* Títulos */
+body.teto-bg .concept-text h3 {
+    color: #00aaff;
+}
+
+/* Texto */
+body.teto-bg .concept-text p {
+    color: #cccccc;
+}
+
+/* =========================================
+   EFEITOS EXTRAS (DETALHE DE QUALIDADE)
+========================================= */
+
+/* Glow suave nos botões */
+body.teto-bg .menu-item:hover {
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.4);
+}
+
+/* Scrollbar personalizada (Chrome) */
+body.teto-bg::-webkit-scrollbar {
+    width: 8px;
+}
+
+body.teto-bg::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+body.teto-bg::-webkit-scrollbar-thumb {
+    background: #00aaff;
+    border-radius: 10px;
+}
